@@ -230,9 +230,9 @@ const StC = StyleSheet.create({
         paddingVertical: RFValue(10),
         paddingHorizontal: RFValue(10),
     },
-    pv15_ph10: {
-        paddingVertical: RFValue(15),
-        paddingHorizontal: RFValue(10),
+    pv10_ph15: {
+        paddingVertical: RFValue(10),
+        paddingHorizontal: RFValue(15),
     },
     content:{
         padding: RFValue(15)

@@ -7,11 +7,12 @@ import Feather from 'react-native-vector-icons/Feather';
 
 const AppBar = ({
     title,
-    navigation
+    navigation,
+    onBackCustom,
 }) => {
     return (
         <View style={styles.header}>
-            <TouchableOpacity activeOpacity={0.5} style={styles.btnBack}>
+            <TouchableOpacity activeOpacity={0.5} style={styles.btnBack} onPress={onBackCustom == null ? () => navigation.goBack() : onBackCustom}>
                 <Icon as={Feather} name={'chevron-left'} color={Colors.BLACK} size={RFValue(5)}/>
             </TouchableOpacity>
             <View style={[StC.centerPage, {flex:1, height:'100%'}]}>

@@ -68,6 +68,9 @@ export default StyleSheet.create({
     F20:{
         fontSize: RFValue(20),
     },
+    F24:{
+        fontSize: RFValue(24),
+    },
     F25:{
         fontSize: RFValue(25),
     },
@@ -102,6 +105,9 @@ export default StyleSheet.create({
     GREY:{
         color: Colors.GREY
     },
+    GREEN:{
+        color: Colors.GREEN
+    },
 
     title:{
         fontFamily:'GothamRoundedBold_21016.ttf',
@@ -120,6 +126,12 @@ export default StyleSheet.create({
         fontFamily:'GothamRoundedBold_21016.ttf',
         fontSize: RFValue(14),
         color: Colors.GREY,
+        fontWeight: 'bold',
+    },
+    desc:{
+        fontFamily:'GothamRoundedBold_21016.ttf',
+        fontSize: RFValue(12),
+        color: '#9E9E9E',
         fontWeight: 'bold',
     },
 })

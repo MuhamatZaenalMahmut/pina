@@ -1,6 +1,9 @@
 import AppBar from './appBar';
 import BaseContainer from './baseContainer';
 import ButtonFlex from './button/flex';
+import CardHeader from './card/header';
+import CardTransaction from './card/transaction';
+import Filter from './filter';
 import FormCounter from './forms/counter';
 import FormInput from './forms/input';
 import FormPicker from './forms/picker';
@@ -16,6 +19,9 @@ export {
     AppBar,
     BaseContainer,
     ButtonFlex,
+    CardHeader,
+    CardTransaction,
+    Filter,
     FormCounter,
     FormInput,
     FormPicker,

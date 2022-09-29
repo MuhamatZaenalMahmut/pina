@@ -3,10 +3,9 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import { StC, Font, Colors } from "@styles";
 
 export default StyleSheet.create({
-    wallet:{
-        ... StC.mt10,
-        ... StC.mb10,
-        width: RFValue(60),
-        height: RFValue(60)
-    }
+    history:{
+        backgroundColor: Colors.WHITE,
+        borderTopLeftRadius: RFValue(20),
+        borderTopRightRadius: RFValue(20),
+    },
 })

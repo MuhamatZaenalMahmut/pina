@@ -21,8 +21,7 @@ const ButtonFlex = ({
                 ]}
             >
                 <Text style={[
-                    styles.label, 
-                    disabled && Font.BLACK,
+                    styles.label,
                 ]}>{title}</Text>
             </TouchableOpacity>
         
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.PRIMARY,
     },
     label:{
-        ... Font.WHITE,
+        ... Font.BLACK,
         ... Font.F14,
         fontWeight: 'bold',
     },

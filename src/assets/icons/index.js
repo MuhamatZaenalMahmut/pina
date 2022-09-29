@@ -7,6 +7,7 @@ const icons = {
     credit: require("./credit.png"),
     dollar: require("./dollar.png"),
     ewallet: require("./ewallet.png"),
+    filter: require("./filter.png"),
     freelance: require("./freelance.png"),
     income: require("./income.png"),
     invest: require("./invest.png"),
@@ -15,6 +16,7 @@ const icons = {
     outcome: require("./outcome.png"),
     plus: require("./plus.png"),
     salary: require("./salary.png"),
+    sort: require("./sort.png"),
 };
 
 export default icons;
