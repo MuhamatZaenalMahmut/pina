@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { View, ScrollView, Image } from 'react-native';
-import { BaseContainer, AppBar, Tab, MyView, FormInput, FormPicker, FormCounter, ButtonFlex, ModalCategory, ModalSource, ProgressBar, ModalCalendar } from '@components';
+import { BaseContainer, AppBar, Tab, FormInput, FormPicker, FormCounter, ButtonFlex, ModalCategory, ModalSource, ProgressBar, ModalCalendar } from '@components';
 import { Icons } from '@assets';
 import { StC } from "@styles";
 import { Formik } from 'formik';
@@ -22,7 +22,6 @@ function FormTransaction({ navigation }) {
     useEffect(() => {
 
     }, [])
-
 
     const validationSchema = yup.object().shape({
         merchant: yup
