@@ -236,6 +236,12 @@ const StC = StyleSheet.create({
     },
     content:{
         padding: RFValue(15)
+    },
+    modal:{
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderTopLeftRadius: RFValue(20),
+        borderTopRightRadius: RFValue(20),
     }
 });
 

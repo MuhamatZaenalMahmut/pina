@@ -62,6 +62,18 @@
 		<string>Poppins-Medium.ttf</string>
 		<string>Poppins-Regular.ttf</string>
 		<string>Poppins-SemiBold.ttf</string>
+		<string>GothamRounded-Bold.otf</string>
+		<string>GothamRounded-BoldItalic.otf</string>
+		<string>GothamRounded-Book.otf</string>
+		<string>GothamRounded-BookItalic.otf</string>
+		<string>GothamRounded-Light.otf</string>
+		<string>GothamRounded-LightItalic.otf</string>
+		<string>GothamRounded-Medium.otf</string>
+		<string>GothamRounded-MediumItalic.otf</string>
+		<string>GothamRoundedBold_21016.ttf</string>
+		<string>GothamRoundedBook_21018.ttf</string>
+		<string>GothamRoundedLight_21020.ttf</string>
+		<string>GothamRoundedMedium_21022.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

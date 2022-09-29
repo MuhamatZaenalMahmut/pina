@@ -8,6 +8,7 @@ import FormCounter from './forms/counter';
 import FormInput from './forms/input';
 import FormPicker from './forms/picker';
 import Loading from './loading';
+import ModalAlert from './modal/alert';
 import ModalCalendar from './modal/calendar';
 import ModalCategory from './modal/category';
 import ModalSource from './modal/source';
@@ -26,6 +27,7 @@ export {
     FormInput,
     FormPicker,
     Loading,
+    ModalAlert,
     ModalCalendar,
     ModalCategory,
     ModalSource,

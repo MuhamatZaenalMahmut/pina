@@ -17,6 +17,7 @@ const icons = {
     plus: require("./plus.png"),
     salary: require("./salary.png"),
     sort: require("./sort.png"),
+    success: require("./success.png"),
 };
 
 export default icons;

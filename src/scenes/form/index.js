@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { View, ScrollView, Image } from 'react-native';
-import { BaseContainer, AppBar, Tab, FormInput, FormPicker, FormCounter, ButtonFlex, ModalCategory, ModalSource, ProgressBar, ModalCalendar } from '@components';
+import { View, ScrollView, Image, Text } from 'react-native';
+import { BaseContainer, AppBar, Tab, FormInput, FormPicker, FormCounter, ButtonFlex, ModalCategory, ModalSource, ProgressBar, ModalCalendar, ModalAlert } from '@components';
 import { Icons } from '@assets';
 import { StC } from "@styles";
 import { Formik } from 'formik';
@@ -18,6 +18,7 @@ function FormTransaction({ navigation }) {
     const refModalCategory          = useRef()
     const refModalSource            = useRef()
     const refModalCalendar          = useRef()
+    const refModalAlert             = useRef()
 
     useEffect(() => {
 
@@ -30,7 +31,7 @@ function FormTransaction({ navigation }) {
     })
 
     const handleSave = async () => {
-        navigation.navigate('DetailTransaction')
+        refModalAlert.current.open()
     }
 
     return (
@@ -106,6 +107,10 @@ function FormTransaction({ navigation }) {
             <ModalCalendar
                 open={refModalCalendar}
                 onPress={()=> refModalCalendar.current.close()}
+            />
+            <ModalAlert
+                open={refModalAlert}
+                onPress={()=> {refModalAlert.current.close(); navigation.navigate('DetailTransaction')}}
             />
         </BaseContainer>
     )

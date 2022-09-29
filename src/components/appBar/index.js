@@ -29,7 +29,7 @@ const styles = ({
     header:{
         ... StC.flexR,
         ... StC.centerPage,
-        height: RFValue(45),
+        height: RFValue(50),
     },
     btnBack:{
         ... StC.centerPage,

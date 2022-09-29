@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     card:{
         backgroundColor: Colors.WHITE,
         borderRadius: RFValue(15),
-        margin: RFValue(15)
+        margin: RFValue(15),
     },
     header:{
         ... StC.centerPage,
@@ -46,6 +46,6 @@ const styles = StyleSheet.create({
     },
     value:{
         ... Font.F24,
-        fontWeight: 'bold'
+        ... Font.Bold
     }
 })

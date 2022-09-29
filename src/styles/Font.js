@@ -5,25 +5,19 @@ import { RFValue } from 'react-native-responsive-fontsize';
 export default StyleSheet.create({
 
     Bold:{
-        fontFamily:'Poppins-Bold.ttf'
+        fontFamily:'GothamRounded-Bold'
     },
     BoldItalic:{
-        fontFamily:'Poppins-BoldItalic.ttf'
-    },
-    ExtraLight:{
-        fontFamily:'Poppins-ExtraLight.ttf'
+        fontFamily:'GothamRounded-BoldItalic'
     },
     Light:{
-        fontFamily:'Poppins-Light.ttf'
+        fontFamily:'GothamRounded-Light'
     },
     Medium:{
-        fontFamily:'Poppins-Medium.ttf'
-    },
-    Regular:{
-        fontFamily:'Poppins-Regular.ttf'
+        fontFamily:'GothamRounded-Medium'
     },
     SemiBold:{
-        fontFamily:'Poppins-SemiBold.ttf'
+        fontFamily:'GothamRounded-SemiBold'
     },
 
     F7:{
@@ -110,28 +104,24 @@ export default StyleSheet.create({
     },
 
     title:{
-        fontFamily:'GothamRoundedBold_21016.ttf',
+        fontFamily:'GothamRounded-Bold',
         fontSize: RFValue(16),
         color: Colors.BLACK,
-        fontWeight: 'bold'
     },
     label:{
         marginBottom: RFValue(8),
-        fontFamily:'GothamRoundedBold_21016.ttf',
+        fontFamily:'GothamRounded-Medium',
         fontSize: RFValue(14),
         color: Colors.BLACK,
-        fontWeight: 'bold'
     },
     value:{
-        fontFamily:'GothamRoundedBold_21016.ttf',
+        fontFamily:'GothamRounded-Medium',
         fontSize: RFValue(14),
         color: Colors.GREY,
-        fontWeight: 'bold',
     },
     desc:{
-        fontFamily:'GothamRoundedBold_21016.ttf',
+        fontFamily:'GothamRounded-Medium',
         fontSize: RFValue(12),
         color: '#9E9E9E',
-        fontWeight: 'bold',
     },
 })

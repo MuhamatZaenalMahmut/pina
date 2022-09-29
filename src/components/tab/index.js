@@ -36,9 +36,8 @@ const styles = ({
         padding: RFValue(8),
     },
     label:{
-        ... Font.InterMedium, 
+        ... Font.Medium, 
         ... Font.F14,
         ... Font.BLACK,
-        fontWeight: 'bold'
     }
 })

@@ -5,7 +5,7 @@ import { Icon } from 'native-base';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { connect } from "react-redux";
 import RBSheet from "react-native-raw-bottom-sheet";
-import Entypo from 'react-native-vector-icons/Entypo';
+import Octicons from 'react-native-vector-icons/Octicons';
 
 function ModalCategory ({ 
     open, 
@@ -22,7 +22,7 @@ function ModalCategory ({
             openDuration={250}
             customStyles={{
                 container: {
-                    ... StC.centerPage
+                    ... StC.modal
                 }
             }}
         >
@@ -34,7 +34,7 @@ function ModalCategory ({
                         <TouchableOpacity style={styles.card} activeOpacity={0.5} onPress={()=> onPress(item.name)}>
                             <Image source={item.icon} style={styles.icon}/>
                             <Text style={[Font.label, {flex:1}]}>{item.name}</Text>
-                            {item.name == value ? <Icon as={Entypo} name={'check'} color={Colors.GREEN} size={RFValue(5)}/> : null}
+                            {item.name == value ? <Icon as={Octicons} name={'check-circle'} color={Colors.GREEN} size={RFValue(5)}/> : null}
                         </TouchableOpacity>
                     ))} 
                 />

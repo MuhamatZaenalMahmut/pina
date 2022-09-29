@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, TouchableOpacity, StyleSheet } from "react-native";
-import { Colors, Font, StC, Shadow } from "@styles";
+import { Colors, Font, StC } from "@styles";
 import { RFValue } from 'react-native-responsive-fontsize';
 
 const ButtonFlex = ({
@@ -24,7 +24,6 @@ const ButtonFlex = ({
                     styles.label,
                 ]}>{title}</Text>
             </TouchableOpacity>
-        
     )
 }
 
@@ -42,6 +41,6 @@ const styles = StyleSheet.create({
     label:{
         ... Font.BLACK,
         ... Font.F14,
-        fontWeight: 'bold',
+        ... Font.Medium
     },
 });
