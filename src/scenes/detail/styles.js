@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import { RFValue } from 'react-native-responsive-fontsize';
-import { StC, Font, Colors } from "@styles";
+import { Colors } from "@styles";
 
 export default StyleSheet.create({
     history:{

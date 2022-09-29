@@ -35,7 +35,7 @@ const styles = ({
     },
     borderPicker:{
         ... StC.centerPage,
-        height: RFValue(25),
+        height: RFValue(30),
         flex: 1,
         backgroundColor: Colors.GREY,
         borderRadius: RFValue(10)
@@ -46,7 +46,7 @@ const styles = ({
         fontWeight: 'bold',
     },
     progress:{
-        height: RFValue(25),
+        height: RFValue(30),
         borderRadius: RFValue(10),
         position: 'absolute',
         left:0

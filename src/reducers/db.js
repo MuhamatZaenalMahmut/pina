@@ -1,6 +1,3 @@
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Icons } from '@assets';
 
 module.exports = {
